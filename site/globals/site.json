@@ -1,11 +1,11 @@
 {
     "name": "Robert Shenton",
-    "url": "https://skeleventy.netlify.com",
+    "url": "http://robertshenton.co.za",
     "author": {
-        "name": "Max Power",
-        "email": "hello@maxpower.com",
-        "handle": "@maxpower",
-        "avatar": "/images/blog/author.jpg"
+        "name": "Robert Shenton",
+        "email": "hello@robertshenton.co.za",
+        "handle": "@miltage",
+        "avatar": "/images/meta/me.jpg"
     },
     "images": {
         "favicon": "/images/favicon.ico",
