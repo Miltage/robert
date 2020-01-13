@@ -13,6 +13,8 @@ title: Welcome to my site!
             <div class="avatar w-40 h-40"></div>
             <h2>Robert Shenton</h2>
             <p>Programmer, writer, game developer</p>
+            <img class="w-5 h-5 inline" src="images/icons/twitter.svg" />
+            <a href="https://twitter.com/miltage">@Miltage</a>
         </div>
     </section>
 
@@ -32,9 +34,19 @@ title: Welcome to my site!
 
             <div class="separator"></div>
 
-            <h2 class="text-3xl">Ramblings</h2>
+            <h2 class="text-3xl">Musings</h2>
 
             <p>Coming soon...</p>
+
+            {#<ol>
+
+                {% for post in collections.blog %}
+
+                <li class="mb-1"><a href="{{ post.url }}">{{ post.data.date | dateDisplay + ' - ' + post.data.title }}</a></li>
+
+                {% endfor %}
+
+            </ol>#}
 
         </div>
 
