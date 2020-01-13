@@ -646,11 +646,11 @@ a {
 
 a:not([class]) {
   border-bottom-width: 2px;
-  border-color: #eb5286;
+  border-color: #66cccc;
 }
 
 a:not([class]):hover {
-  color: #eb5286;
+  color: #38b2ac;
 }
 
 h1, h2, h3 {

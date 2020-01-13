@@ -6,10 +6,10 @@ a {
 
     &:not([class]) {
         border-bottom-width: 2px;
-        border-color: #eb5286;
+        border-color: #66cccc;
 
         &:hover {
-            @apply text-pink-500;
+            @apply text-teal-500;
         }
     }
 }

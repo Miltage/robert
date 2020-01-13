@@ -1,0 +1,24 @@
+
+//==========  Siderbar  ==========//
+
+#sidebar {
+  width: 180px;
+
+  .fixed {
+    width: inherit;
+  }
+
+  .avatar {
+    display: inline-block;
+    background-image: url('/images/meta/me.jpg');
+    @apply bg-gray-400 rounded-full bg-center bg-no-repeat bg-cover;
+  }
+
+  h2 {
+    @apply my-4;
+  }
+
+  p {
+    @apply mb-8 font-light leading-snug text-gray-600;
+  }
+}
