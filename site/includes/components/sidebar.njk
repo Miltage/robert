@@ -1,13 +1,24 @@
 <section id="sidebar" class="column pt-20 text-center">
     <div class="fixed">
+
         <div class="avatar w-40 h-40"></div>
+
         <h2>Robert Shenton</h2>
         <p>Programmer, writer, game developer</p>
+
         <div><img class="w-5 h-5 inline" src="images/icons/pin.svg" /> Cape Town</div>
+
         <div class="m-1"><img class="w-5 h-5 inline" src="images/icons/twitter.svg" />
         <a href="https://twitter.com/miltage">@miltage</a></div>
+
         <div class="m-1"><img class="w-5 h-5 inline" src="images/icons/github.svg" />
         <a href="https://github.com/miltage">Miltage</a></div>
+
+        {% if meta_title != 'Home' %}
+        <div class="my-6"><img class="w-4 h-4 inline mr-1" src="images/icons/back.svg" />
+        <a href="/">Back to home</a></div>
+        {% endif %}
+
     </div>
 </section>
 
