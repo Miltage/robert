@@ -1,0 +1,21 @@
+
+//==========  Items  ==========//
+
+.items a {
+  @apply border-none;
+}
+
+item {
+  display: inline-block;
+  transition: 0.25s all ease-out;
+  background-size: 200%;
+  filter: opacity(0.5) grayscale(0.5);
+  -webkit-filter: opacity(0.5) grayscale(0.5);
+  @apply w-24 h-24 bg-gray-400 rounded-lg bg-center bg-no-repeat m-2;
+
+  &:hover {
+    background-size: 220%;
+    filter: opacity(1) grayscale(0);
+    -webkit-filter: opacity(1) grayscale(0);
+  }
+}

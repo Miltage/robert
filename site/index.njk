@@ -14,7 +14,7 @@ title: Welcome to my site!
             <h2>Robert Shenton</h2>
             <p>Programmer, writer, game developer</p>
             <div><img class="w-5 h-5 inline" src="images/icons/pin.svg" /> Cape Town</div>
-            <div class="mb-2"><img class="w-5 h-5 inline" src="images/icons/twitter.svg" />
+            <div class="m-1"><img class="w-5 h-5 inline" src="images/icons/twitter.svg" />
             <a href="https://twitter.com/miltage">@miltage</a></div>
         </div>
     </section>
@@ -31,7 +31,16 @@ title: Welcome to my site!
 
             <h2 class="text-3xl">Things I've worked on</h2>
 
-            <p>Coming soon...</p>
+
+            <div class="items">
+
+                {% for item in collections.project %}
+
+                    <a href="{{ item.url }}"><item style="background-image: url('{{ item.data.featured_image }}')"></item></a>
+
+                {% endfor %}
+
+            </div>
 
             <div class="separator"></div>
 
