@@ -8,18 +8,7 @@ title: Welcome to my site!
 
 <main id="main" class="main inner flex flex-1 flex-row justify-around py-10 lg:py-20 focus:outline-none" tabindex="-1">
 
-    <section id="sidebar" class="column pt-20 text-center">
-        <div class="fixed">
-            <div class="avatar w-40 h-40"></div>
-            <h2>Robert Shenton</h2>
-            <p>Programmer, writer, game developer</p>
-            <div><img class="w-5 h-5 inline" src="images/icons/pin.svg" /> Cape Town</div>
-            <div class="m-1"><img class="w-5 h-5 inline" src="images/icons/twitter.svg" />
-            <a href="https://twitter.com/miltage">@miltage</a></div>
-        </div>
-    </section>
-
-    <section class="column divider flex-0 min-h-full m-12"></section>
+    {% include "components/sidebar.njk" %}
 
     <section id="container-centre" class="column centre flex-1">
 
