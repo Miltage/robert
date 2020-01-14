@@ -1388,7 +1388,7 @@ item {
   display: inline-block;
   -webkit-transition: 0.25s all ease-out;
   transition: 0.25s all ease-out;
-  background-size: 200%;
+  background-size: 100%;
   filter: opacity(0.5) grayscale(0.5);
   -webkit-filter: opacity(0.5) grayscale(0.5);
   width: 6rem;
@@ -1398,10 +1398,11 @@ item {
   background-position: center;
   background-repeat: no-repeat;
   margin: 0.5rem;
+  cursor: pointer;
 }
 
 item:hover {
-  background-size: 220%;
+  background-size: 120%;
   filter: opacity(1) grayscale(0);
   -webkit-filter: opacity(1) grayscale(0);
 }
