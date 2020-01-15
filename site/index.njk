@@ -1,9 +1,10 @@
 ---
 layout: default
 meta_title: Home
-meta_description: Skeleventy is a beautiful, powerful skeleton boilerplate built with Eleventy and TailwindCSS
+meta_description: Personal site of Robert Shenton
 body_class: home
-title: Welcome to my site!
+title: Greetings, weary traveller!
+subtitle: Please, do come in...
 ---
 
 <main id="main" class="main inner flex flex-1 flex-row justify-around py-10 lg:py-20 focus:outline-none" tabindex="-1">
@@ -12,11 +13,11 @@ title: Welcome to my site!
 
     <section id="container-centre" class="column centre flex-1">
 
-        <h1 class="page-title">Greetings, weary traveller!</h1>
+        <h1 class="page-title">{{ title }}</h1>
 
         <div class="content">
 
-            <p>Please, make yourself at home.</p>
+            <p>{{ subtitle }}</p>
 
             <h2 class="text-3xl">Things I've worked on</h2>
 
