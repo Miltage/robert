@@ -34,7 +34,11 @@ h2 {
 
 // content breakers
 .divider {
-  @apply border-r border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+  @apply border-b border-gray-200 text-2xl mb-10 font-light leading-snug text-gray-600;
+
+  @media (min-width: 768px) {
+    @apply border-r pb-10;
+  }
 }
 
 .separator {

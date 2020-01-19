@@ -691,14 +691,20 @@ h2 {
 }
 
 .divider {
-  border-right-width: 1px;
+  border-bottom-width: 1px;
   border-color: #edf2f7;
   font-size: 1.5rem;
-  padding-bottom: 2.5rem;
   margin-bottom: 2.5rem;
   font-weight: 300;
   line-height: 1.375;
   color: #718096;
+}
+
+@media (min-width: 768px) {
+  .divider {
+    border-right-width: 1px;
+    padding-bottom: 2.5rem;
+  }
 }
 
 .separator {
@@ -713,10 +719,16 @@ h2 {
 }
 
 #sidebar {
-  width: 180px;
+  width: 100%;
 }
 
-#sidebar .fixed {
+@media (min-width: 768px) {
+  #sidebar {
+    width: 180px;
+  }
+}
+
+#sidebar .md\:fixed {
   width: inherit;
 }
 
