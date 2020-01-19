@@ -6,7 +6,9 @@ body_class: blog
 title: Robert's Ramblings
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class="main inner flex flex-1 flex-row py-10 lg:py-20 focus:outline-none" tabindex="-1">
+
+    {% include "components/sidebar.njk" %}
 
     <section id="container-centre" class="column centre flex-1">
 
@@ -32,7 +34,7 @@ title: Robert's Ramblings
 
                                         <li class="mr-2">
 
-                                            <span class="inline-block bg-pink-500 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>
+                                            <span class="inline-block bg-teal-500 px-4 py-2 text-white text-xs font-bold rounded">{{ item | capitalize }}</span>
 
                                         </li>
 
@@ -58,7 +60,7 @@ title: Robert's Ramblings
 
                     <div class="p-8">
 
-                        <h2 class="text-2xl mb-6"><a class="block text-purple-900 hover:text-pink-500" href="{{ post.url }}">{{ post.data.title }}</a></h2>
+                        <h2 class="text-2xl mb-6"><a class="block text-purple-900 hover:text-teal-500" href="{{ post.url }}">{{ post.data.title }}</a></h2>
 
                         <div class="text-sm text-gray-600 md:flex mb-4">
 

@@ -11,7 +11,9 @@ pagination:
 permalink: /category/{{ category }}/
 ---
 
-<main id="main" class="main inner flex flex-1 flex-col py-10 lg:py-20 focus:outline-none" tabindex="-1">
+<main id="main" class="main inner flex flex-1 flex-row py-10 lg:py-20 focus:outline-none" tabindex="-1">
+
+    {% include "components/sidebar.njk" %}
 
     <section id="container-centre" class="column centre flex-1">
 
@@ -23,7 +25,7 @@ permalink: /category/{{ category }}/
 
                 <article class="text-gray-500 mb-8 pb-8 border-b border-gray-200">
 
-                    <h2 class="text-4xl mb-3"><a class="block text-pink-500 hover:text-purple-900" href="{{ post.url }}">{{ post.data.title }}</a></h2>
+                    <h2 class="text-4xl mb-3"><a class="block text-teal-500 hover:text-purple-900" href="{{ post.url }}">{{ post.data.title }}</a></h2>
 
                     <time datetime="{{ post.date }}">
                         {{ post.date | dateDisplay }}
