@@ -1,8 +1,8 @@
 ---
-title: "Hello 2020: New year, new me, new site!"
+title: "Hello 2020: New year, new site!"
 date: 2020-01-19
 featured_image: /images/blog/code1.jpeg
-image_caption: Photo by Chris Ried on Unsplash
+image_caption: Unrelated Python Code by Chris Ried on Unsplash
 tags:
   - blog
   - site
