@@ -1,4 +1,4 @@
 npm run production
-git add docs -f
+git add .
 git commit -m "Deploy"
 git push
