@@ -14,4 +14,7 @@ After some delibertaion, we settled on a new (aeronatical) theme and added brand
 Some final features are still being developed for the mobile version.
 
 [Official Website](http://jetstreamgame.com)  
-[Steam Store Page](https://store.steampowered.com/app/738860/Jetstream/)
+[Steam Store Page](https://store.steampowered.com/app/738860/Jetstream/)  
+[Teaser Trailer](https://www.youtube.com/watch?v=qfPI8B5U6nY)  
+[Launch Trailer](https://www.youtube.com/watch?v=XZzj7jULSGw)  
+[Behind the Scenes - Level Design](https://www.youtube.com/watch?v=DVDW9xj2ciM)  

@@ -1,14 +1,14 @@
 {
-  "name": "skeleventy",
+  "name": "robert",
   "version": "2.0.0",
-  "description": "Skeleventy - A skeleton boilerplate built with Eleventy",
+  "description": "Personal site of Robert Shenton",
   "scripts": {
     "dev": "ELEVENTY_ENV=development eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && eleventy --config=eleventy.config.js --output=docs"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/josephdyer/skeleventy.git"
+    "url": "https://github.com/Miltage/robert.git"
   },
   "author": "Joseph Dyer",
   "license": "MIT",
