@@ -10,6 +10,6 @@ module.exports = function (date) {
       return v;
   }
 
-  let timestamp = new Date()
+  let timestamp = new Date(date);
   return timestamp.getFullYear() + "/" + pz(timestamp.getMonth() + 1) + "/" + pz(timestamp.getDate())
 }
