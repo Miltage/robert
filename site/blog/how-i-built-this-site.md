@@ -49,7 +49,6 @@ blog
  ├ first-post.md
  ├ second-post.md
  └ third-post.md
-
 ```
 
 And at the top of each file I define a little meta info about the post like this:
@@ -66,7 +65,6 @@ tags:
   - site
   - programming
 ---
-
 ```
 
 The rest of the file contains the blog post's contents written in [Markdown](https://en.wikipedia.org/wiki/Markdown). Take a look at [this post's file](https://raw.githubusercontent.com/Miltage/robert/master/site/blog/how-i-built-this-site.md) to see what I mean.
@@ -80,8 +78,7 @@ This post is marked with the `blog` tag, so the templating engine adds it to a `
   {% for post in collections.blog %}
     <li class="mb-1"><a href="{{ post.url }}">{{ post.data.date + ' - ' + post.data.title }}</a></li>
   {% endfor %}
-</ol>
-{% endraw %}
+</ol>{% endraw %}
 ```
 
 It's really as simple as that.
@@ -105,7 +102,6 @@ npm run production
 git add .
 git commit -m "Deploy"
 git push
-
 ```
 
 Now whenever I'm ready to push an update I just run that script and GitHub does the rest. But there was one final step - linking my domain. And this was probably the hardest part to get right. I entered my custom domain name in the setting section (you will find that GitHub [automatically commits a CNAME file](https://github.com/Miltage/robert/commit/e88480f1d22aac7968c3ba8c8f68f98ff169adc8) to your repo when you do), but soon found that this wasn't enough. Poring through the GitHub docs, I realised that I needed to [configure my domain](https://help.github.com/en/github/working-with-github-pages/managing-a-custom-domain-for-your-github-pages-site) properly as well.

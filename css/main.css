@@ -721,6 +721,21 @@ h2 {
 pre {
   max-width: 600px;
   overflow-x: scroll;
+  background-color: #35495e;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 30px;
+}
+
+pre code {
+  padding: 0;
+}
+
+code {
+  background-color: #35495e;
+  color: #f6f4e6;
+  padding: 4px 6px;
+  border-radius: 5px;
 }
 
 #sidebar {
