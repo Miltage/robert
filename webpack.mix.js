@@ -65,6 +65,8 @@ mix
                     'h3',
                     'h4',
                     'p',
+                    'pre',
+                    'code',
                     'blockquote',
                     'breadcrumbs',
                     'content',

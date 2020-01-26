@@ -32,7 +32,9 @@ Still, a fair bit of the template had to be adjusted to fit my liking, but that 
 
 The first thing I did was remove all the unnecessary junk I didn't need like the header and footer. The second thing I did was add the sidebar that you see on every page. This is where the power of a templating engine really starts to shine. I only had to write the code once and then include it on every page like so:
 
-`{% raw %}{% include "components/sidebar.njk" %}{% endraw %}`
+```
+{% raw %}{% include "components/sidebar.njk" %}{% endraw %}
+```
 
 When the static site files are generated, the sidebar component is injected into each page by the templating engine. That means any future changes to the sidebar would only need to be made in one place. Handy!
 
@@ -93,7 +95,9 @@ Just go over to the settings of your repo and look for the GitHub Pages section.
 
 Because my source files are in the root, and I don't want to be serving that, I opted to generate my static HTML in a `docs` folder on the master branch and serve that. In my `package.json` file I simply added the `docs` folder as an output option to my `production` build script, like so:
 
-`eleventy --config=eleventy.config.js --output=docs`
+```
+eleventy --config=eleventy.config.js --output=docs
+```
 
 Finally, I wrote a little bash script to run the 4 commands it takes to actually push a deploy up to the cloud.
 
