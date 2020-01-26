@@ -25,6 +25,6 @@ I reached out to the company via email and they agreed to sell my own domain bac
 
 By this time I had learned of templating engines and static site generators. I had used [Eleventy](https://www.11ty.dev/) to build a site for a friend and after the initial setup, adding content was a cinch. Furthermore, GitHub now offered static hosting with [GitHub Pages](https://pages.github.com/), so I could host this humble little site for free too!
 
-*So here we are!* Chances are you're reading this on a completed and functional site. I'll write another blog post about the actual steps I took in the setting everything up so that people can follow and do the same if they like. This post was only intended to be a "breaking-in" post for the blog anyway (so I could test styling and navigation).
+*So here we are!* Chances are you're reading this on a completed and functional site. I'll write [another blog post](/blog/how-i-built-this-site) about the actual steps I took in the setting everything up so that people can follow and do the same if they like. This post was only intended to be a "breaking-in" post for the blog anyway (so I could test styling and navigation).
 
 To you, reader: I hope that the new decade brings you all the happiness and successes that you deserve. Go forth and prosper!

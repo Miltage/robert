@@ -718,6 +718,11 @@ h2 {
   color: #718096;
 }
 
+pre {
+  max-width: 600px;
+  overflow-x: scroll;
+}
+
 #sidebar {
   width: 100%;
 }

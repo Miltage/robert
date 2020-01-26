@@ -44,3 +44,8 @@ h2 {
 .separator {
   @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
 }
+
+pre {
+  max-width: 600px;
+  overflow-x: scroll;
+}
