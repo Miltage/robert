@@ -1,8 +1,8 @@
 ---
 title: "Global Game Jam 2020"
 date: 2020-02-03
-featured_image: /images/blog/code1.jpeg
-image_caption: A shot of the game
+featured_image: /images/blog/ggj-logo.png
+image_caption: Global Gam Jam
 tags:
   - blog
   - programming
@@ -10,7 +10,7 @@ tags:
   - gaming
 ---
 
-"Boy, I sure do love my new Cybertruck!"  
+"Boy, I sure do love my Cybertruck!"  
 ~ Elon Musk (probably)
 
 [Global Gam Jam](http://globalgamejam.org) was here again last weekend, and though I'd partaken a few times before, this year I did things a little differently.
@@ -37,7 +37,7 @@ No matter though, I already had a team of two planned, so I would just have to w
 
 Jonathan arrives at my place and we pop over to the shop for some snacks to keep us going. (I ate so badly this weekend... Chips, coke and two separate Uber Eats orders of burgers and nachos.) We were at the office by 8 and quickly set about coming up with a game idea. This year's theme was *"Repair"* and we went through the usual ideas of robots repearing themselves to the more outlandish (at one point were were talking about a French Grim Repear - *Repeare*).
 
-After about 15 minutes of deliberation we settled on something. You steer a car down a highway that is riddled with potholes. Running over potholes causes damage to the vehicle. Along the road you collect coins. You spend those coins repairing your car. And that was it! It wasn't particularly flashy or exciting, but I had learned over the years that big ideas get you half-finished, buggy games. Seriously, scope management is the greatest skill at any game jam.
+After about 15 minutes of deliberation we settled on something. A racing game where your car constantly breaks down and you have to repair it! Although that was too ambitious for a weekend project for two, so we trimmed the fat considerably, dropping the racing component altogher. Insted, you would steer a car down a highway that is riddled with potholes. Running over potholes causes damage to the vehicle. Along the road you collect coins. You spend those coins repairing your car. And that was it! It wasn't particularly flashy or exciting, but I had learned over the years that big ideas get you half-finished, buggy games. Seriously, scope management is the greatest skill at any game jam.
 
 That's not to say that the scope didn't creep at all, though. We were, of course, going to need other cars on the road. And how about fuel that depletes as you drive? Now you have to decide what to spend your valuable coins on. Fuel, or repairs? Doable, I thought, and it added a much-needed bit of complexity to our, frankly, bland game idea. I did have to talk Jono out of having a curved highway, though. Curves are cool and all, but I didn't want to be the guy to have to program AI cars to follow them.
 
@@ -47,11 +47,17 @@ While modeling the car for the game, he realised that the recently-announced Cyb
 
 So as Jono set about modeling his Cybertruck I sat tackling the problem of generating a road with holes in it. Building a model out of primitive shapes is one thing, but when those models are concave? Well, I had no idea how to even go about that using code. I was properly stumped for a short while, before I had an idea. I would generate a plane of segments, then using a noise function, raid and lower each vertex by a calculated amount. This left me with something that resembled more hilly terrain than a corroded highway, but all I had to do was to cap any value over 0, leaving only a flat plane with sporadic troughs. I then just coloured each vertex based on its height and *voila!* Highway generated! First problem solved! (There would be many more. Many, many more.)
 
-Next thing we suddenly got hit with load shedding. For any international readers, this is a phenomenon in South Africa where electricity is periodically cut for 2 hours at a time in an effort to ease the load on our less-than-stellar power supplier. While our laptops ran on batteries and we could continue working to some degree, there came a time when my next task was to implement a physics library and without an internet connect I found myself sitting and waiting for the power to come back on. We played a lot of ping pong.
+Next thing we suddenly got hit with load shedding. For any international readers, this is a phenomenon in South Africa where electricity is periodically cut for 2 hours at a time in an effort to ease the load on our less-than-stellar power supplier. While our laptops ran on batteries and we could continue working to some degree, there came a time when my next task was to implement a physics library and without an internet connect I found myself sitting and waiting for the power to come back on. We played a lot of ping pong. And took a trip to the rooftop to enjoy the sunset.
+
+![Woodstock Sunset](/images/blog/woodstock-sunset.jpg)
+*The new WEX apartment building seen here in all its glory.*
 
 The few hours after that saw me becoming quite frustrated with physics code. While Jonothan continued to model the other vehicles in our game, I was just trying to get a physics body to rotate on input, which proved *way* tougher than it should have. When you have a finite amount of time, it's very hard not to get frusted when you waste 3 hours on something that *should* take 20 mins. Sadly, trigonometry and 3D math in general are not my strong points, and if I plan to spend more time working in 3D I am going to have to brush up those skills.
 
 Eventually, I had a car driving, turning and colliding with traffic. It was dark outside now, and my eyes were starting to hurt. I knew we'd have to call it a day soon. After I added coins for collecting, I made it my last task to have the car take damage from the potholes on the road, but again, that was proving more of a challenge than I had originally anticipated. After struggling for an hour, I glanced at the clock. It was after midnight. Tired and irritable, I decided we'd have to call it a night. We closed up the office and drove home to catch a few hours sleep.
+
+![Cybertruck dodging traffic](/images/blog/ggj20-ss1.png)
+*What we had at the end of the first day.*
 
 ## Sunday
 
@@ -63,13 +69,21 @@ We worked on separate branches on our repo, pushing and pulling code as we neede
 
 Soon it was noon (where does the time go??) and we reconvened to discuss our development strategy. Jono was given the tasks of modeling the station and hooking up the half-finished UI to actual in-game values (which was kinda just sitting there being useless - the UI, that is, not Jono) while I added some much-needed polish to the game. We had about 5 hours left. It was crunch time. Go! Go!
 
+![Jonothan at work](/images/blog/ggj20-jono.jpg)
+*Our workstations, with Jono pictured here hard at work.*
+
 I began adding some finer details to the game, like the wheels rotating when you turned the car, and the vehicles flashing red when they took damage. How about a little particle engine so your car billows plumes of white smoke when you take too much damage? *Sure, why not.* Adding polish is probably my favourite part of the experience. Without too much effort you can make great strides towards something that *feels* a lot more like a finished product than a hacked-together prototype. I even added a minor detail where the wheels on the car drop into potholes as you drive over them. I'd wager my month's salary that not a single person who played the game noticed that, but it made me happy.
 
 Next I plugged in Jonothan's now finished station and added some physics code so that you couldn't just drive through it like a ghost car. I also added a check for when the car was in the station so that Jono could just plug the menu logic in there. I looked over at Jono's screen and he had somehow got himself lost in the unforgiving labrynth that is mathematics. I think the poor guy spent 2 hours trying to draw a curved road with bezier curves, which would probably have been a cinch in an actual 3D modeling program. Curse our lack of modeling skills! Having been stuck on math the day before, I sympathised. He got there in the end, but didn't leave much time for us to wrap things up.
 
-We suddenly had only an hour left to pull everything together. Panic stations, everyone? I had to add sound to our completely silent game. I *had* to, right? Nobody wants to play a silent game. I scoured the web for sounds - trimming and tweaking where need be - and plonking them in the right place. I must say, the sound *did* make a world of difference, and I found my last hour was time well spent, despite not a single person in my office playing the game with their sound on...
+![Cybertruck at station](/images/blog/ggj20-ss2.png)
+*Flat colours are in, right?*
 
-Jonothan had to hook up the UI menus. And I mean *had to*. Without that, there literally was no game. While he was busy with that, I made the quickest and easiest cover image I've ever made in my life. I decided on a title for our little project, then found an online generator for 80's themed text and photoshopped Elon Musk onto it. Like, 2 minutes tops. I'm not actually sure people *didn't* enjoy that more than the game, to be honest.
+We suddenly had only an hour left to pull everything together.  
+*Panic stations, everyone!*  
+I had to add sound to our completely silent game. I *had* to, right? Nobody wants to play a silent game. I scoured the web for sounds - trimming and tweaking where need be - and plonking them in the right place. I must say, the sound *did* make a world of difference, and I found my last hour was time well spent, despite not a single person in my office playing the game with their sound on...
+
+Jonothan had to hook up the UI menus. And this time, I mean *had to*. Without that, there literally was no game. While he was busy with that, I made the quickest and easiest cover image I've ever made in my life. I decided on a title for our little project, then found an online generator for 80's themed text and photoshopped Elon Musk onto it. Like, 2 minutes tops. I'm not actually sure people *didn't* enjoy that more than the game, to be honest.
 
 ![Elon Musk's Cyber Dream](/images/blog/elon-musk-cyberdream.png)
 *The generator wouldn't accept apostrophes. Don't @ me.*
@@ -82,7 +96,7 @@ When you get past the technical difficulties that come hand-in-hand with connect
 
 And we saw it all, too, from a game about mating pandas to a bird trying to fix his penny farthing. The creativity on display was seemingly boundless.
 
-We went up second and received a decent response to our game, but I wasn't entirely happy with my presentation. I forgot to mention cool things like the tech we'd built it on, or the fact that our game was assetless (if you exclude the sound files), or showing off the little detail that your cybertruck beeps like an actual truck when backing up. We did get a laugh though when Jono, who was demonstrating, crashed into the side of a bus and a sad trombone played over a 'game over' screen.
+We went up second and received a decent response to our game, but I wasn't entirely happy with my presentation. Never having been good at speaking off the cuff like that, I forgot to mention cool things like the tech we'd built it on, or the fact that our game was assetless (if you exclude the sound files), or showing off the little detail that your cybertruck beeps like an actual truck when backing up. We did get a laugh though when Jono, who was demonstrating, crashed into the side of a bus and a sad trombone played over a 'game over' screen.
 
 When all was said and done, we went home exhausted, but accomplished, men and women.
 
@@ -96,4 +110,8 @@ I will also say that I don't know if game jams are such a good idea for me anymo
 
 Maybe I need to tackle smaller projects? My ideas have scaled down dramatically in size of the years, yet I still end up crunching. Maybe I need bigger teams to spread out the workload? Managing teams and delegating tasks is work on its own. All I know is that if I hadn't roped Jonothan into being on my team, and if I didn't think I would have disappointed him by doing so, I would have thrown in the towel on Saturday night and taken Sunday to just sleep and relax because at that low point I really didn't feel that all this hard work was worth it.
 
+I realise I'm sounding pretty negative right now, but I don't mean to. If I continue to jam (which is likely!), I just need to find better ways to manage my stress and workload under such short deadlines.
+
 Jono and I will team up again for another jam, I'm sure of it, but before we do I'm going to need at least a few weekends off. Good night!
+
+[You can play the finished game here.](http://miltage.github.io/GGJ20/)
