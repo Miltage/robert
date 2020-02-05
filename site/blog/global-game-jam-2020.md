@@ -7,7 +7,7 @@ tags:
   - blog
   - programming
   - game jam
-  - gaming
+  - game development
 ---
 
 "Boy, I sure do love my Cybertruck!"  

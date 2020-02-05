@@ -8,6 +8,10 @@ module.exports = eleventyConfig => {
     // Add a HTML timestamp formatter filter to Nunjucks
     eleventyConfig.addFilter("htmlDateDisplay", require("./filters/timestamp.js"))
 
+    // Add a filter to capitalize the first letter of every word
+    eleventyConfig.addFilter("capitalizeWords", require("./filters/capitalizeWords.js"))
+
+
     // Minify our HTML
     eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
         if ( outputPath.endsWith(".html") )
