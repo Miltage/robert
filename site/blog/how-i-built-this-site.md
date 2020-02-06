@@ -18,7 +18,7 @@ The time had come for me to revamp my site and I needed something that was simpl
 
 I had used [Eleventy](https://www.11ty.dev/) a few months earlier when I had worked on a friend's site and had had some success with it, so picked this as my weapon on choice.
 
-[Templating engines](https://expressjs.com/en/resources/template-engines.html) are quite popular and have been around for a little while now, so a lot of you reading this might be well acquainted with them. This post is meant for the frontend developer who isn't and is mostly an attempt to convince them why they should be, as well as documenting some of the things I learnt in putting this humble little site together.
+[Static site generators](https://www.staticgen.com/) are quite popular and have been around for a little while now, so a lot of you reading this might be well acquainted with them. This post is meant for the frontend developer who isn't and is mostly an attempt to convince them why they should be, as well as documenting some of the things I learnt in putting this humble little site together.
 
 *Okay, here we go!*
 
