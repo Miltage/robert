@@ -80,7 +80,9 @@ mix
                     'required',
                     'row',
                     'visually-hidden',
-                    'menu-visible'
+                    'menu-visible',
+                    'img',
+                    'em'
                 ]
             })
 
