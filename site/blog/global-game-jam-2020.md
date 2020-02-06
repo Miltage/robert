@@ -1,6 +1,6 @@
 ---
 title: "Global Game Jam 2020"
-date: 2020-02-05
+date: 2020-02-06
 featured_image: /images/blog/ggj-logo.png
 image_caption: Global Gam Jam
 tags:
