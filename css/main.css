@@ -667,6 +667,13 @@ h2 {
 
 .page-title {
   font-size: 3rem;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .page-title {
+    text-align: left;
+  }
 }
 
 .content p {

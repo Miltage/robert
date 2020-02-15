@@ -11,7 +11,11 @@ h2 {
 }
 
 .page-title {
-  @apply text-5xl;
+  @apply text-5xl text-center;
+
+  @screen md {
+    @apply text-left;
+  }
 }
 
 // content
