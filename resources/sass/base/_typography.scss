@@ -23,13 +23,13 @@ h2 {
 
         // intro paragraph
     &:first-child {
-      @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600;
+      @apply border-b border-gray-200 text-2xl pb-10 mb-10 font-light leading-snug text-gray-600 text-center;
 
       @screen md {
-                @apply text-3xl;
-            }
+        @apply text-3xl text-left;
+      }
     }
-    }
+  }
 }
 
 // content breakers
