@@ -13,7 +13,7 @@ layout: default
 
             <h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">{{ title }}</h1>
 
-            <div class="text-sm md:text-base text-gray-600 flex justify-center">
+            <div class="text-sm md:text-base text-gray-600 flex flex-col text-center lg:flex-row lg:text-left justify-center">
 
                 <time datetime="{{ date }}">
                     {{ date | dateDisplay }}
@@ -70,14 +70,14 @@ layout: default
             {# category links list #}
             {% if tags %}
 
-                <ul class="flex pt-4">
+                <ul class="flex pt-4 flex-col text-center md:flex-row md:text-left">
 
                     {% for item in tags %}
 
                         {%- if item != "blog" -%}
 
-                            <li class="mr-2">
-                                <a class="inline-block border border-teal-300 px-4 py-2 text-teal-500 text-xs font-semibold rounded hover:text-white hover:bg-teal-500 hover:border-teal-500" href="/category/{{ item }}">{{ item | capitalizeWords }}</a>
+                            <li class="mr-2 my-2">
+                                <a class="inline-block border border-teal-300 px-4 py-2 text-teal-500 text-xs font-semibold rounded hover:text-white hover:bg-teal-500 hover:border-teal-500 w-4/5 md:w-auto" href="/category/{{ item }}">{{ item | capitalizeWords }}</a>
                             </li>
 
                         {%- endif -%}
