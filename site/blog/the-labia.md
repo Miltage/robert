@@ -24,7 +24,7 @@ I first visited the theatre in 2018, and it would be almost a year before I made
 28 Sep 2019 –– Once Upon a Time in Hollywood  
 14 Jan 2020 –– Knives Out  
 28 Jan 2020 –– 1917  
-20 Feb 2020 –– Jojo Rabbit
+20 Feb 2020 –– Jojo Rabbit  
 10 Mar 2020 –– Parasite
 
 If you're a local and looking to spend an evening with the cinema stars, you can't go wrong with the Labia. I do recommend!
