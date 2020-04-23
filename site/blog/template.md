@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+date: 2020-01-01
+featured_image: /images/blog/twitch-branding.jpg
+image_caption: Image caption
+tags:
+  - blog
+  - programming
+hidden
+---
+
+Tagline or quote here
+
+Start of main content here
+
+![Image Title](/images/meta/brand.png)
+
+[Link title](https://www.robertshenton.co.za)
