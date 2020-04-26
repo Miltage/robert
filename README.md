@@ -8,4 +8,4 @@ Built with [Eleventy](https://www.11ty.dev/docs/), [TailwindCSS](https://tailwin
 
 Develop `npm run dev`
 
-Deploy `npm run production`
+Deploy `sh deploy.sh`
