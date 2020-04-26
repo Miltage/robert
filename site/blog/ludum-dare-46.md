@@ -1,6 +1,6 @@
 ---
 title: "LD46: Junior Juggle"
-date: 2020-04-24
+date: 2020-04-26
 featured_image: /images/blog/junior-juggle2.png
 image_caption: Well, this looks... safe.
 tags:

@@ -245,13 +245,8 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-<<<<<<< HEAD
-__webpack_require__(/*! C:\Users\Admin\Documents\Dev\robert\resources\js\main.js */"./resources/js/main.js");
-module.exports = __webpack_require__(/*! C:\Users\Admin\Documents\Dev\robert\resources\sass\main.scss */"./resources/sass/main.scss");
-=======
 __webpack_require__(/*! /Users/robertshenton/Documents/Dev/robert/resources/js/main.js */"./resources/js/main.js");
 module.exports = __webpack_require__(/*! /Users/robertshenton/Documents/Dev/robert/resources/sass/main.scss */"./resources/sass/main.scss");
->>>>>>> cbc9a3e094422f6c4570c1f3627a5498ed1f8a00
 
 
 /***/ })
