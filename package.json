@@ -4,7 +4,7 @@
   "description": "Personal site of Robert Shenton",
   "scripts": {
     "dev": "SET ELEVENTY_ENV=development & eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "production": "SET NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && eleventy --config=eleventy.config.js --output=docs"
+    "production": "node build.js"
   },
   "repository": {
     "type": "git",
