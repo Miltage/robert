@@ -39,11 +39,15 @@ I slapped the new artwork into the game then created a title screen and game ove
 
 It was the end of the first day and I had a complete game on my hands. It was very basic but it played and kept score. That gave me an entire day left to tweak and add polish!
 
+![Gameplay](/images/blog/juniorjam.gif)
+
 # Day 2
 
 No shopping for me on this morning. I woke up and (after some breakfast) went straight to work. It was time to polish this thing. First thing I did was draw more babies (as if I hadn't done this enough). I needed the baby to feel more alive, and to do that I needed to add some animation. So I added two more frames of the baby looking left and up at the potential death, then randomly switched between them.
 
 Next I added plugs to the electrical items. This added nothing to the game but I thought it was a nice touch that people would appreciate. I also added some more objects into the mix and added a few frames for the items I thought could benefit from a little animation magic - namely the television and chainsaw. The game was coming together very nicely now and I was making great progress! Thought the game was missing one large aspect - sound!
+
+![Gameplay 2](/images/blog/juniorjam2.gif)
 
 While I had lunch I did some gathering of sound effects to put in my game. I did a lot of trimming and pitch shifting until I had something that could work. I stuck them in my game and suddenly it came alive! I always forget how much sound transforms a game and often underestimate just how important a part it is in the game development process. That having been said, I wasn't done yet. I still needed music! So I opened up my favourite audio editor and put together a little music track to play in the background of the game. I say little but what I really mean is that I spent a good two hours to get something together that I was happy with. I tried to make something in the style of [bossa nova](https://www.youtube.com/watch?v=T5ALPzS0QfQ) and while I think I'm in the right direction, I don't think I really nailed the feel I was going for. Still, it serves its purpose and I was happy with it when I finally got it in the game.
 
@@ -56,6 +60,8 @@ Finally with sound done, there was only 1 thing left to do! The room felt a litt
 My game was wrapped and I still had 5 hours to spare! I was immensely proud - this was unprecedented. I am normally scrambling up to the last second to get my entry submitted but this time around was smooth sailing. I went to bed at a decent hour, content with my efforts and submission. 
 
 I think I owe a lot of this success to scope management. The game is disgustingly simple and thus took me only a few hours to get up and running, even when using a framework I'd never used before. Hopefully I can have a repeat success next time I jam!
+
+This was also the first jam where I streamed the entire process. If you're interested in making games yourself, [come see how it's done!](https://twitch.tv/miltage)
 
 ![Image Title](/images/blog/junior-juggle.png)
 
