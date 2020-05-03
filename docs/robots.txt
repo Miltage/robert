@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://robertshenton.co.za/sitemap.xml
