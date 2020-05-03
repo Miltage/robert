@@ -1,8 +1,8 @@
 ---
 title: "Quarantino: My first game on Newgrounds in 7 years"
-date: 2020-04-28
-featured_image: /images/blog/twitch-branding.jpg
-image_caption: Image caption
+date: 2020-05-03
+featured_image: /images/blog/quarantino.png
+image_caption: Look at this guy just standing around waiting to be infected
 tags:
   - blog
   - programming
@@ -12,7 +12,7 @@ tags:
 ---
 
 We’re not ready for the next epidemic  
-~ Bill Gates
+~ Bill Gates, 2015
 
 This might sound like a doom-and-gloom blog post about the COVID-19 pandemic but it's not. It's about a small simulation I built around the theme of infection and the prevention thereof.
 
@@ -51,19 +51,23 @@ The first two weeks were the most productive. Even though we're in lockdown, I a
 
 Because [I had just started streaming](/blog/hello-twitch), I took a stab at streaming a lot of the game's development. This went pretty well. I never really had a lot of activity but did occassionally have a viewer wander in to ask me questions about the process and provide some live feedback. In fact, the idea to have obstacles in the level to provide an extra bit of difficulty came from a suggestion by one such viewer. The only downside to streaming is that I sometimes get distracted talking to viewers and lose a little productivity. Still, I think the pay-off is well worth it.
 
+![Progress](/images/blog/quarantino1.gif)
+
 # HTML5 woes
 
 So while [HaxeFlixel](https://haxeflixel.com/) built nicely for desktop (which I was using to test as I went along), when I tried a build for HTML5 which was to be my final build platform, I found that my game was crippled by drawing errors. Very annoying. I took to the Haxe Discord server to ask for help but no one there could offer any assistance. I did some debugging and discovered that the issue came in when tinting my sprites to different colours. This is a technique I use to differentiate infected people from others, tinting the sprites red when a person becomes infected. Seems like this causes issues on WebGL, so I had no choice but to find a workaround before I could upload the final product.
 
 ![Annoyed](https://media.tenor.com/images/55998b2722e985c40443eae54ef7c03e/tenor.gif)
 
-After the initial two weeks of development it was suddenly Ludum Dare weekend so all my time and focus went to [creating a game for that jam](/blog/ludum-dare-46) instead (and playing other people's games in the following week).
+After the initial two weeks of development it was suddenly [Ludum Dare](https://ldjam.com) weekend so all my time and focus went to [creating a game for that jam](/blog/ludum-dare-46) instead (and playing other people's games in the following week).
 
 # Final push
 
 With the deadline for this jam looming, it was time to shift my focus back and wrap this thing up. One evening when I was a little too tired to entertain on stream I spent an evening making an 8-bit track for the game. I figured that would match my pixel art aesthetic nicely. I still need to get better at music production for my jam games, but this was really good for practice. I feel like I'm only scratching the surface of what FL Studio can do, but like most things, that will come with time.
 
 At this point I had a game but no content, so I slapped 5 small levels together and tweaked the variables until I found I had a good progression of complexity and difficulty. On the final day of the jam I added a mechanic where lines disappear after a short amount of time, but then when playing the level I decided that it detracted from the game's experience too much so I removed it at the last minute.
+
+![Progress 2](/images/blog/quarantino2.gif)
 
 Then I still had the HTML5 rendering issues to fix... So my solution was to ditch the tinting of sprites and manually draw sprites of the required colours. This was a very tedious as I had to duplicate all the frames of my existing walk cycle and change the white to the respective colours. Then I had to painstakingly import all those extra frames into the game. About 1.5 hours of extra time, but at least the bug was fixed and my game was working in the browser!
 
