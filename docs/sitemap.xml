@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://robertshenton.co.za/blog/</loc>
-        <lastmod>2020/01/13</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/category/all/</loc>
-        <lastmod>2020/01/13</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/</loc>
-        <lastmod>2020/01/15</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/jetstream/</loc>
-        <lastmod>2020/01/15</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/blog/hello-2020/</loc>
         <lastmod>2020/01/19</lastmod>
     </url>
@@ -39,5 +23,25 @@
     <url>
         <loc>https://robertshenton.co.za/blog/ludum-dare-46/</loc>
         <lastmod>2020/04/26</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/blog/</loc>
+        <lastmod>2020/04/26</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/</loc>
+        <lastmod>2020/04/26</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/jetstream/</loc>
+        <lastmod>2020/04/26</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/category/all/</loc>
+        <lastmod>2020/04/26</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/blog/haxeflixeljam-quarantino/</loc>
+        <lastmod>2020/04/28</lastmod>
     </url>
 </urlset>
