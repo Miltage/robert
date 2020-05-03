@@ -1,6 +1,6 @@
 ---
 title: "Quarantino: My first game on Newgrounds in 7 years"
-date: 2020-04-28
+date: 2020-05-03
 featured_image: /images/blog/quarantino.png
 image_caption: Look at this guy just standing around waiting to be infected
 tags:
