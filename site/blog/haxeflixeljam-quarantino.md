@@ -88,3 +88,7 @@ Over the next few days the reviews and ratings trickled in. Lots of positive fee
 I'm super keen now to get a bigger game polished up for Newgrounds. Watch this space!
 
 [Play it here](https://www.newgrounds.com/portal/view/753674)
+
+# Update
+
+[The results are in!](https://www.newgrounds.com/bbs/topic/1451690) Quarantino placed 6th in the jam and won $125! (Not bad for such a small game)
