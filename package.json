@@ -3,7 +3,7 @@
   "version": "2.0.0",
   "description": "Personal site of Robert Shenton",
   "scripts": {
-    "dev": "node dev.js",
+    "dev": "sh dev.sh",
     "production": "node build.js"
   },
   "repository": {
