@@ -1,6 +1,6 @@
 {
   "name": "robert",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Personal site of Robert Shenton",
   "scripts": {
     "dev": "sh dev.sh",
@@ -15,15 +15,15 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "html-minifier": "^4.0.0",
-    "laravel-mix": "^5.0.0",
+    "laravel-mix": "^5.0.4",
     "laravel-mix-purgecss": "^4.2.0",
     "resolve-url-loader": "^3.1.0",
-    "sass": "^1.22.12",
+    "sass": "^1.26.7",
     "sass-loader": "^8.0.0",
-    "tailwindcss": "^1.1.2",
+    "tailwindcss": "^1.4.6",
     "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.14.1"
   }
 }
