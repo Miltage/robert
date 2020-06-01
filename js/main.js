@@ -234,7 +234,7 @@ var $$ = {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed (from ./node_modules/css-loader/index.js):\nModuleBuildError: Module build failed (from ./node_modules/postcss-loader/src/index.js):\nSyntaxError\n\n(28:3) `@apply` cannot be used with .transition because .transition is included in multiple rulesets.\n\n  26 | \n  27 | a {\n> 28 |   @apply text-purple-900 no-underline transition;\n     |   ^\n  29 | }\n  30 | \n\n    at C:\\Users\\Admin\\Documents\\Dev\\robert\\node_modules\\webpack\\lib\\NormalModule.js:316:20\n    at C:\\Users\\Admin\\Documents\\Dev\\robert\\node_modules\\loader-runner\\lib\\LoaderRunner.js:367:11\n    at C:\\Users\\Admin\\Documents\\Dev\\robert\\node_modules\\loader-runner\\lib\\LoaderRunner.js:233:18\n    at context.callback (C:\\Users\\Admin\\Documents\\Dev\\robert\\node_modules\\loader-runner\\lib\\LoaderRunner.js:111:13)\n    at C:\\Users\\Admin\\Documents\\Dev\\robert\\node_modules\\postcss-loader\\src\\index.js:207:9");
+// removed by extract-text-webpack-plugin
 
 /***/ }),
 

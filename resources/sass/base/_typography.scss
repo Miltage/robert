@@ -50,7 +50,6 @@ h2 {
 }
 
 pre {
-  max-width: 600px;
   overflow-x: scroll;
   background-color: #35495e;
   border-radius: 5px;
@@ -65,6 +64,7 @@ pre {
 }
 
 code {
+  max-width: 800px;
   background-color: #35495e;
   color: #f6f4e6;
   padding: 4px 6px;
