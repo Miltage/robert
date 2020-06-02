@@ -626,11 +626,15 @@ video {
 
 .inner {
   width: 100%;
-  max-width: 72rem;
   margin-left: auto;
   margin-right: auto;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 a {
@@ -638,7 +642,7 @@ a {
   color: #21183c;
   color: rgba(33, 24, 60, var(--text-opacity));
   text-decoration: none;
-  transition: all 0.4s;
+  transition: 0.25s all ease-out;
 }
 
 a:not([class]) {
@@ -779,9 +783,17 @@ img ~ em {
   width: 100%;
 }
 
+#sidebar .content {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 35px;
+}
+
 @media (min-width: 768px) {
   #sidebar {
-    width: 180px;
+    min-width: 180px;
+    max-width: 260px;
   }
 }
 
@@ -1328,7 +1340,7 @@ img ~ em {
   border-radius: 0.25rem;
   padding: 0.75rem;
   width: 100%;
-  transition: all 0.4s;
+  transition: 0.25s all ease-out;
 }
 
 .form .input:focus,

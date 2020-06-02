@@ -4,7 +4,7 @@
 a {
     @apply text-purple-900 no-underline;
 
-    transition: all .4s;
+    transition: 0.25s all ease-out;
 
     &:not([class]) {
         border-bottom-width: 2px;

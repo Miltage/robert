@@ -3,9 +3,16 @@
 
 #sidebar {
   width: 100%;
+  
+  .content {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 35px;
+  }
 
   @media (min-width: 768px) {
-    width: 180px;
+    min-width: 180px;
+    max-width: 260px;
   }
 
   .md\:fixed {
