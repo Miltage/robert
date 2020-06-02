@@ -4,6 +4,8 @@
 a {
     @apply text-purple-900 no-underline;
 
+    transition: all .4s;
+
     &:not([class]) {
         border-bottom-width: 2px;
         border-color: #66cccc;

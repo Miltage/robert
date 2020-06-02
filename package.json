@@ -3,7 +3,7 @@
   "version": "2.0.1",
   "description": "Personal site of Robert Shenton",
   "scripts": {
-    "dev": "cross-env ELEVENTY_ENV=development eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "dev": "cross-env ELEVENTY_ENV=development start eleventy --config=eleventy.config.js --serve & webpack --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
     "production": "cross-env NODE_ENV=production webpack --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js && eleventy --config=eleventy.config.js --output=docs"
   },
   "repository": {
