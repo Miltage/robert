@@ -1,6 +1,6 @@
 ---
 title: "How to build a Twitch bot: Part 1"
-date: 2020-01-01
+date: 2020-06-15
 featured_image: /images/blog/robot.jpg
 image_caption: Photo by Rock'n Roll Monkey on Unsplash
 tags:
