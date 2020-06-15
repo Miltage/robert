@@ -1,0 +1,94 @@
+<!doctype html><html lang="en" class="min-h-full antialiased"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><base href="/"><title>How to build a Twitch bot: Part 1 | Robert Shenton</title><meta name="description" content=""><meta name="robots" content="index,follow"><link rel="stylesheet" href="/css/main.min.css"><script src="/js/main.min.js" defer="defer"></script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-34714917-1"></script><script>window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-34714917-1');</script><meta itemprop="name" content="How to build a Twitch bot: Part 1 | Robert Shenton"><meta itemprop="description" content=""><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to build a Twitch bot: Part 1 | Robert Shenton"><meta name="twitter:description" content=""><meta name="twitter:site" content="@miltage"><meta name="twitter:creator" content="@miltage"><meta name="twitter:image:src" content="https://robertshenton.co.za"><meta name="og:title" content="How to build a Twitch bot: Part 1 | Robert Shenton"><meta name="og:description" content=""><meta name="og:image" content="https://robertshenton.co.za"><meta name="og:url" content="https://robertshenton.co.za/blog/how-to-build-a-twitch-bot-1/"><meta name="og:site_name" content="Robert Shenton"><meta name="og:locale" content="en_GB"><meta name="og:type" content="website"><link rel="icon" type="image/png" href="/images/favicon.png"><link rel="canonical" href="https://robertshenton.co.za/blog/how-to-build-a-twitch-bot-1/"></head><body class="text-purple-900 leading-normal text-lg"><a class="visually-hidden" href="#main">Skip to content</a><div id="wrapper" class="wrapper pb-4 md:pb-0 flex flex-col relative min-h-screen"><main id="main" class="main inner flex flex-1 flex-col md:flex-row py-10 lg:py-20 focus:outline-none" tabindex="-1"><section id="sidebar" class="column m-0 p-0 md:ml-6 md:pt-20 text-center"><div class="content"><div class="avatar w-40 h-40"></div><h2>Robert Shenton</h2><p>Programmer, writer, game developer</p><div><img class="w-5 h-5 inline" src="images/icons/pin.svg"> Cape Town</div><div class="m-1"><img class="w-5 h-5 inline" src="images/icons/twitter.svg"> <a href="https://twitter.com/miltage">@miltage</a></div><div class="m-1"><img class="w-5 h-5 inline" src="images/icons/github.svg"> <a href="https://github.com/miltage">Github</a></div><div class="m-1"><img class="w-5 h-5 inline" src="images/icons/twitch.svg"> <a href="https://twitch.tv/miltage">Twitch</a></div><div class="m-1"><img class="w-5 h-5 inline" src="images/icons/newgrounds.svg"> <a href="https://miltage.newgrounds.com/">Newgrounds</a></div><div class="my-6"><img class="w-4 h-4 inline mr-1" src="images/icons/back.svg"> <a href="/">Back to home</a></div></div></section><section class="column divider flex-0 min-h-full m-12"></section><section id="container-centre" class="column centre flex-1"><div class="post-header mb-12 md:mb-20"><h1 class="page-title text-3xl md:text-center md:text-5xl lg:text-6xl">How to build a Twitch bot: Part 1</h1><div class="text-sm md:text-base text-gray-600 flex flex-col text-center lg:flex-row lg:text-left justify-center"><time datetime="Wed Jan 01 2020 02:00:00 GMT+0200 (South Africa Standard Time)">1st January, 2020</time><p class="px-2">—</p><p class="category">Posted in <a href="/category/programming">Programming</a><a href="/category/twitch">, Twitch</a><a href="/category/javascript">, Javascript</a></p></div><figure class="mt-10 md:mt-20"><img data-lazy="/images/blog/robot.jpg" alt="Photo by Rock&#39;n Roll Monkey on Unsplash"><figcaption class="text-center text-sm italic text-gray-600 mt-4">Photo by Rock&#39;n Roll Monkey on Unsplash</figcaption></figure></div><div class="content post md:px-16"><p>Bleep bloop!</p><p>I started <a href="/blog/hello-twitch/">streaming on Twitch</a> a little over a month ago and when I started, I saw no need for a bot. A few weeks later, however, I started streaming myself playing <a href="https://ldjam.com">Ludum Dare</a> games and found that I couldn't keep up with the submissions. Links to people's games were being lost in the chat. I quickly created a Google Form for people to submit their games to a spreadsheet, but I needed a bot to send the link to people upon request. I managed to set one up with very little effort on <a href="https://streamlabs.com/">Streamlabs</a>, but being a programmer, I wanted to create my own.</p><p>When my brother was an avid streamer a couple years ago he had set up his own bot, aptly titled <strong>Greg_the_butler</strong>. Borrowing heavily from this idea, my own bot, <strong>Butler_Boris</strong>, was born!</p><p>Bot services like <a href="https://moo.bot/">Moobot</a>, <a href="https://streamlabs.com/">Streamlabs</a> or <a href="https://nightbot.tv/">Nightbot</a> are incredibly useful and easy to use, and I'm sure you will find that they will more than likely fit the job you need doing but if, however, you are like me and love to tinker, then this post is for you!</p><p><img src="https://media1.tenor.com/images/0d25b593960f77aa2e2fdc1c4ddd4336/tenor.gif?itemid=9734323" alt="Hello humans"> <em>I am programmed to serve</em></p><h2>Set up</h2><p>To run your bot, you're going to need both <a href="https://nodejs.org/en/">node.js</a> and <a href="https://www.npmjs.com/">npm</a>. Go ahead and install those first.</p><p>Next, create a folder on your computer that is going to host your bot. In that folder, run the following command to install Twitch's API wrapper.</p><p><code>npm install tmi.js</code></p><p>Optional: if you want your bot to be run on a separate Twitch account (like I did) you will have to create that account on <a href="https://www.twitch.tv/">Twitch</a>. If you're happy to run the bot on your own account, you can skip this step.</p><p>Lastly - you will need an OAuth token. You can <a href="https://twitchapps.com/tmi/">generate that here</a> while logged in with your desired account.</p><h2>Basics</h2><p>In your project directory, create a file called <code>bot.js</code>. This is going to hold all the logic for your bot.</p><p>Twitch Developer docs have a basic example on this page for a dice-rolling app. I'll remove the dice-rolling part, because we won't need that.</p><pre><code class="language-javascript">const tmi = require('tmi.js');
+
+// Define configuration options
+const opts = {
+  identity: {
+    username: &lt;BOT_USERNAME&gt;,
+    password: &lt;OAUTH_TOKEN&gt;
+  },
+  channels: [
+    &lt;CHANNEL_NAME&gt;
+  ]
+};
+// Create a client with our options
+const client = new tmi.client(opts);
+
+// Register our event handlers (defined below)
+client.on('message', onMessageHandler);
+client.on('connected', onConnectedHandler);
+
+// Connect to Twitch:
+client.connect();
+
+// Called every time a message comes in
+function onMessageHandler (target, context, msg, self) {
+  if (self) { return; } // Ignore messages from the bot
+
+  // handle messages here
+}
+
+// Called every time the bot connects to Twitch chat
+function onConnectedHandler (addr, port) {
+  console.log(`* Connected to ${addr}:${port}`);
+}
+</code></pre><p>The code is pretty self-explanatory. All you really need to do is replace the 3 variables in <code>opts</code> with the username of your bot account, the OAuth token we generated earlier, and then a list of channels you'd like your bot to run on. For me, that would look like this:</p><pre><code class="language-javascript">// Define configuration options
+const opts = {
+  identity: {
+    username: Butler_Boris,
+    password: oauth:xxxxxxxxxxxxxxxxxxxxxx
+  },
+  channels: [
+    Miltage
+  ]
+};
+</code></pre><h2>Running</h2><p>To run your bot all you need to do is run your file from command line.</p><p><code>node bot.js</code></p><p>You should get a message about the bot connecting to IRC if everything is working correctly.</p><h2>Customizing</h2><p>So this is all good and well, but your bot doesn't do anything yet.<br>Let's program our bot to respond to people when they send greetings in the chat.</p><pre><code class="language-javascript">function onMessageHandler (target, context, msg, self) {
+  if (self) { return; } // Ignore messages from the bot
+
+  // List of greetings to listen for
+  var greetings = ['hello', 'hi', 'hey', 'morning', 'afternoon', 'evening', 'good morning', 'good afternoon', 'good evening'];
+  // Make lowercase and strip punctuation
+  var m = msg.toLowerCase().replace(/[^\w\s]|_/g, &quot;&quot;).replace(/\s+/g, &quot; &quot;);
+  // Test for greetings and respond accordingly
+  for (i in greetings)
+  {
+    if (m === greetings[i]) {
+      client.say(target, `Hello ${context['display-name']}!`);
+    }
+  }
+}
+</code></pre><p>Here we use <code>context</code> object to get the user's display-name and address them by name! Neat!</p><p>So far so good, but bots also need to respond to commands. Let's extend our <code>onMessageHandler</code> function to do that too.</p><pre><code class="language-javascript">// Remove whitespace from chat message
+const commandName = msg.trim();
+
+if (commandName.charAt(0) === &quot;!&quot;) {
+  const command = commandName.split(&quot; &quot;)[0];
+  const displayName = context['display-name'];
+  // Handle command
+  switch (command) {
+    case &quot;!test&quot;:
+      client.say(target, `You used the !test command.`);
+      break;
+    default: 
+      console.log(`* Unknown command ${commandName}`);
+  }
+}
+</code></pre><p>Here we first strip the whitespace from the message. Next we check if the first character is an exclamation mark <code>!</code> which denotes a command is being used. If it is, we split the message using the a blank space as the delimiter to select the very first word.</p><p>Last, we use a switch-case statement to detect which command is being used and respond accordingly. This example only accepts one command <code>!test</code> which has a very simple response. You can replace this with whatever you'd like your bot to do and easily expand by adding more cases to the switch statement.</p><p>If the command is not recognised, it will trigger the <code>default</code> case which will report the usage to the console, but nothing will happen in chat. You could change that to respond in chat that the command is unrecognised if you wanted to.</p><p>You could also easily added command aliases like so:</p><pre><code class="language-javascript">case &quot;!hello&quot;:
+case &quot;!test&quot;:
+case &quot;!test2&quot;:
+  client.say(target, `@${displayName} You used the !test command.`);
+  break;
+</code></pre><p>In this case, <code>!hello</code>, <code>!test</code> and <code>!test2</code> would all trigger the same command. Awesome!</p><p>Last thing we'll add is the ability for our bot to occassionaly say something in chat. This is handy for promoting things to viewers. I've used this to share links to projects I'm working on or for sharing an invite link to my <a href="https://discord.gg/zcUQgZV">Discord server</a>.</p><pre><code class="language-javascript">function periodicPromotion(interval) {
+  setInterval(function() {
+    client.say(opts.channels[0], `This is a message that will be sent every 30 mins!`);
+  }, interval * 1000);
+}
+
+// Called every time the bot connects to Twitch chat
+function onConnectedHandler (addr, port) {
+  console.log(`* Connected to ${addr}:${port}`);
+  periodicPromotion(1800);
+}
+</code></pre><p>Here we simply tell the bot to send a message every time a specified interval has passed. Note that the interval is specified in milliseconds. I've set my interval to 30 mins, which is 1800 seconds, which I then multiply by 1000 to convert to milliseconds. Be careful not to be too spammy here!</p><h2>Conclusion</h2><p>With these basics in place, there are tons of cool things you can do with your bot. During <a href="https://ldjam.com">Ludum Dare</a> I added a raffle feature to my bot that picks a random winner from a list of entrants!</p><p>Next time I will show you how to connect to the Twitch API and give your bot some more functionality!</p><ul class="flex pt-4 flex-col text-center md:flex-row md:text-left"><li class="mr-2 my-2"><a class="inline-block border border-teal-300 px-4 py-2 text-teal-500 text-xs font-semibold rounded hover:text-white hover:bg-teal-500 hover:border-teal-500 w-4/5 md:w-auto" href="/category/programming">Programming</a></li><li class="mr-2 my-2"><a class="inline-block border border-teal-300 px-4 py-2 text-teal-500 text-xs font-semibold rounded hover:text-white hover:bg-teal-500 hover:border-teal-500 w-4/5 md:w-auto" href="/category/twitch">Twitch</a></li><li class="mr-2 my-2"><a class="inline-block border border-teal-300 px-4 py-2 text-teal-500 text-xs font-semibold rounded hover:text-white hover:bg-teal-500 hover:border-teal-500 w-4/5 md:w-auto" href="/category/javascript">Javascript</a></li></ul></div><div class="my-6 md:hidden"><img class="w-4 h-4 inline mr-1" src="images/icons/back.svg"> <a href="/">Back to home</a></div></section></main></div></body></html>
