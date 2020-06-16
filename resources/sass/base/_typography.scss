@@ -66,6 +66,10 @@ pre {
   }
 }
 
+code[class*=language-], pre[class*=language-] {
+  white-space: pre-wrap !important;
+}
+
 code {
   background-color: #35495e;
   color: #f6f4e6;
