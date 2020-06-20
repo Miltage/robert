@@ -702,6 +702,15 @@ h2 {
   }
 }
 
+.content ul {
+  list-style: inside;
+  margin-bottom: 2rem;
+}
+
+.content ul.tags {
+  list-style: none;
+}
+
 .divider {
   border-bottom-width: 1px;
   --border-opacity: 1;
