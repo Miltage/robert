@@ -28,3 +28,5 @@ I firmly believe in the value of hard work, and I am working every day to realis
 This pandemic has been tough on everyone financially, so if you don't have **$$$** to spare, no stress! I'll always be releasing stuff for free sooner or later.
 
 Massive thanks in advance to anyone who does become a patron!
+
+[https://www.patreon.com/miltage](https://www.patreon.com/miltage)
