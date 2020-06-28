@@ -126,4 +126,4 @@ I realise I'm sounding pretty negative right now, but I don't mean to. I will co
 
 Jono and I will team up again for another jam, I'm sure of it, but before we do I'm going to need at least a few weekends off.
 
-[You can play the finished game here.](http://miltage.github.io/GGJ20/)
+[You can play the finished game here.](https://the-feature-creep.github.io/GGJ20/)
