@@ -1,6 +1,6 @@
 ---
 title: "Werewolf Generator"
-date: 2020-08-05
+date: 2020-07-29
 featured_image: /images/blog/full-moon.jpg
 image_caption: Photo by Leonardo André on Unsplash
 tags:
