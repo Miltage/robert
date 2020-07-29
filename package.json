@@ -10,7 +10,7 @@
     "type": "git",
     "url": "https://github.com/Miltage/robert.git"
   },
-  "author": "Joseph Dyer",
+  "author": "Robert Shenton",
   "license": "MIT",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
