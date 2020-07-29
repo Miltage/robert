@@ -7,14 +7,7 @@ tags:
   - project
 ---
 
-Jetstream started out as Ludum Dare entry by [Francois van Niekerk](https://twitter.com/francoisvn). Back when I worked over at [Clockwork Acorn](http://clockworkacorn.com/) in 2017 we embarked on what is now a multi-year journey to transform that [prototype](https://francoisvn.itch.io/streamline) into a fully-fledged puzzle game.
+Junior Juggle started out as a [Ludum Dare entry](/blog/ludum-dare-46/), but I liked it enough to polish it up and add some more dangerous items to keep from falling on poor Junior. I also looked into integrating the Newgrounds API so if you play on there you can unlock some medals and might even get your score on the leaderboard!
 
-After some delibertaion, we settled on a new (aeronatical) theme and added brand new mechanics as well as over 100 hand-crafted puzzles. After a few hurdles that stunted development, we eventually launched our first version on Steam in April 2019.
-
-Some final features are still being developed for the mobile version.
-
-[Official Website](http://jetstreamgame.com)  
-[Steam Store Page](https://store.steampowered.com/app/738860/Jetstream/)  
-[Teaser Trailer](https://www.youtube.com/watch?v=qfPI8B5U6nY)  
-[Launch Trailer](https://www.youtube.com/watch?v=XZzj7jULSGw)  
-[Behind the Scenes - Level Design](https://www.youtube.com/watch?v=DVDW9xj2ciM)  
+[Play on Newgrounds](https://www.newgrounds.com/portal/view/758993)  
+[Play on Itch.io](https://miltage.itch.io/junior-juggle)  
