@@ -11,5 +11,5 @@ module.exports = function (date) {
   }
 
   let timestamp = new Date(date);
-  return timestamp.getFullYear() + "/" + pz(timestamp.getMonth() + 1) + "/" + pz(timestamp.getDate())
+  return timestamp.getFullYear() + "-" + pz(timestamp.getMonth() + 1) + "-" + pz(timestamp.getDate())
 }
