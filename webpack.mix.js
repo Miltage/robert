@@ -3,16 +3,19 @@ let mix = require('laravel-mix')
 let tailwindcss = require('tailwindcss')
 require('laravel-mix-purgecss')
 
+// Root path
+let root = mix.inProduction() ? 'docs' : 'dist';
+
 // Paths
 const paths = {
     sass: {
         source: './resources/sass/main.scss',
-        dest: 'css/'
+        dest: root + '/css/'
     },
     javascript: {
         source: './resources/js/main.js',
         singles: './resources/js/singles/*',
-        dest: 'js/'
+        dest: root + '/js/'
     }
 }
 
@@ -27,6 +30,8 @@ mix
             }
         }
     })
+
+    .copy('./resources/font/*', root + '/fonts/')
 
     // Concatenate & Compile Javascript
     .js(paths.javascript.source, paths.javascript.dest)

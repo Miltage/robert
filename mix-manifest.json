@@ -1,6 +1,7 @@
 {
-    "/js/main.js": "/js/main.js",
-    "/css/main.css": "/css/main.css",
-    "/css/main.min.css": "/css/main.min.css",
-    "/js/main.min.js": "/js/main.min.js"
+    "/docs/js/main.js": "/docs/js/main.js",
+    "/docs/css/main.css": "/docs/css/main.css",
+    "/docs/fonts/04B_03__.TTF": "/docs/fonts/04B_03__.TTF",
+    "/docs/css/main.min.css": "/docs/css/main.min.css",
+    "/docs/js/main.min.js": "/docs/js/main.min.js"
 }
