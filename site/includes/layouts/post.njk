@@ -32,7 +32,7 @@ layout: default
 
                             {%- if item != "blog" -%}
 
-                                <a href="/category/{{ item }}">{{ comma() }} {{ item | capitalizeWords }}</a>
+                                {{ comma() }} <a href="/category/{{ item }}">{{ item | capitalizeWords }}</a>
 
                             {%- endif -%}
 
