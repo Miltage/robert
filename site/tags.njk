@@ -21,7 +21,7 @@ permalink: /category/{{ category }}/
 
         <div class="posts">
 
-            {% for post in collections[category] %}
+            {% for post in collections[category]|reverse %}
 
                 <article class="text-gray-500 mb-8 pb-8 border-b border-gray-200">
 
