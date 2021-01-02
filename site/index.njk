@@ -26,7 +26,7 @@ subtitle: Below you'll find a collection of my efforts. The writings of a genius
 
                 {% for item in collections.project %}
 
-                    {% if item.data.hidden != true %}
+                    {% if not item.data.hidden %}
 
                     <a href="{{ item.url }}"><item style="background-image: url('{{ item.data.icon }}')"></item></a>
 
