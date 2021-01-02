@@ -28,7 +28,7 @@ subtitle: Below you'll find a collection of my efforts. The writings of a genius
 
                     {% if not item.data.hidden %}
 
-                    <a href="{{ item.url }}"><item style="background-image: url('{{ item.data.icon }}')"></item></a>
+                    <a href="{{ item.url }}"><item data-tippy-content="{{ item.data.title }}" style="background-image: url('{{ item.data.icon }}')"></item></a>
 
                     {% endif %}
 
