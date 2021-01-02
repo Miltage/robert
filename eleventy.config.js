@@ -55,6 +55,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("js")
     eleventyConfig.addPassthroughCopy("images")
     eleventyConfig.addPassthroughCopy("fonts")
+    eleventyConfig.addPassthroughCopy("privacy")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
     return {
