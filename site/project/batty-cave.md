@@ -3,10 +3,13 @@ title: Batty Cave
 caption: A game about flapping a bat down a cave in the dark
 icon: /images/icons/batty-cave.png
 featured_image: /images/projects/batty-cave.jpg
-hidden: true
 tags:
   - project
 ---
+
+[Play on Itch.io](https://miltage.itch.io/batty-cave)  
+[Download on iOS](https://apps.apple.com/us/app/batty-cave/id1546611181)  
+[Download on Android](https://play.google.com/store/apps/details?id=me.miltage.flappy)
 
 # About
 
@@ -30,6 +33,9 @@ A: No, your scores will remain intact.
 
 Q: Are scores shared across Android and iOS?  
 A: No, they are separate scoreboards.
+
+Q: Why aren't my scores showing on the Google Play leaderboards?  
+A: If you want your score to appear on the public leaderboards will need to choose to share your gameplay activity in the settings.
 
 # Support
 

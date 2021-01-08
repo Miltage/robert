@@ -51,10 +51,7 @@ module.exports = eleventyConfig => {
     eleventyConfig.addLayoutAlias('project', 'layouts/project.njk')
 
     // Include our static assets
-    eleventyConfig.addPassthroughCopy("css")
-    eleventyConfig.addPassthroughCopy("js")
     eleventyConfig.addPassthroughCopy("images")
-    eleventyConfig.addPassthroughCopy("fonts")
     eleventyConfig.addPassthroughCopy("privacy")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
