@@ -55,6 +55,14 @@ module.exports = eleventyConfig => {
     eleventyConfig.addPassthroughCopy("privacy")
     eleventyConfig.addPassthroughCopy("robots.txt")
 
+    eleventyConfig.addNunjucksShortcode("ios", function(url) { 
+        return '<a class="mobile" href="' + url + '"><img src="images/meta/apple.png" /></a>';
+    });
+
+    eleventyConfig.addNunjucksShortcode("android", function(url) { 
+        return '<a class="mobile" href="' + url + '"><img src="images/meta/google.png" /></a>';
+    });
+
     return {
         templateFormats: ["md", "njk"],
         markdownTemplateEngine: 'njk',

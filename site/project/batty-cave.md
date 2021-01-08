@@ -7,9 +7,10 @@ tags:
   - project
 ---
 
-[Play on Itch.io](https://miltage.itch.io/batty-cave)  
-[Download on iOS](https://apps.apple.com/us/app/batty-cave/id1546611181)  
-[Download on Android](https://play.google.com/store/apps/details?id=me.miltage.flappy)
+[Play it here!](https://miltage.itch.io/batty-cave)  
+
+{% ios 'https://apps.apple.com/us/app/batty-cave/id1546611181' %}
+{% android 'https://play.google.com/store/apps/details?id=me.miltage.flappy' %}
 
 # About
 

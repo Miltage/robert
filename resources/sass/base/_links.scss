@@ -14,6 +14,12 @@ a {
             @apply text-teal-500;
         }
     }
+
+    &.mobile img {
+        display: inline;
+        margin: 0;
+        margin-right: 5px;
+    }
 }
 
 
