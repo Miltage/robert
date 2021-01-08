@@ -1,4 +1,3 @@
-
 let mix = require('laravel-mix')
 let tailwindcss = require('tailwindcss')
 require('laravel-mix-purgecss')
@@ -51,9 +50,7 @@ mix
     {
 
         // Remove any unused CSS using Purge
-        mix
-
-            .purgeCss({
+        /*mix.purgeCss({
                 folders: [
                     'site'
                 ],
@@ -89,10 +86,10 @@ mix
                     'img',
                     'em'
                 ]
-            })
+            })*/
 
             // Minifies CSS & JS files
-            .minify(paths.sass.dest + 'main.css')
+            mix.minify(paths.sass.dest + 'main.css')
             .minify(paths.javascript.dest + 'main.js')
 
     }
