@@ -1,8 +1,8 @@
 ---
 title: "Werewolf Generator"
 date: 2020-07-29
-featured_image: /images/blog/full-moon.jpg
-image_caption: Photo by Leonardo André on Unsplash
+featured_image: /images/blog/werewolf-generator.jpg
+image_caption: 
 tags:
   - blog
   - programming
@@ -10,6 +10,10 @@ tags:
 ---
 
 An ominous howl is heard in the distance... 
+
+[Use the generator on Github](https://miltage.github.io/werewolf/)
+
+[I have also made a website for playing Werewolf online without a moderator](https://playap.art)
 
 Man, I cannot believe were are in August already. The time really is flying while we've all been in lockdown, but I'm slowly but surely growing content for my site and getting the chance to work on some cool things so I'm happy. Of course, being inside for large amounts of time comes with its ups and downs, but I hope everyone out there is coping and is in a good place right now.
 
@@ -23,10 +27,6 @@ About 2 hours later I had the very basic workings of a complete generator and ga
 
 After the game was wrapped I sank a little more time into polishing the thing, adding some explanatory text, tooltips and error messages and put it up on [Github](https://github.com/Miltage/werewolf), free to use.
 
-![Generator](/images/blog/werewolf-generator.jpg)
-
 The generator will randomly assign roles to players and then you can click on their icons to toggle their dead/alive state. Pretty simple, I'll admit, but it was really all I needed at the time. Might add some improvements later, like more roles or round timers. Maybe even at some stage turn this thing into an app with an automated moderator, wouldn't that be a fun project?
 
 If you have suggestions for things you'd like to see on there, I'm all ears! Will probably get to use it myself a few more times before this whole social-distancing thing is through.
-
-[Check it out here](https://miltage.github.io/werewolf/ )
