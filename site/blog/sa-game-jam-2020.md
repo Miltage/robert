@@ -86,13 +86,17 @@ I decided I would love to have a coinslot sound effect when you "inserted" your 
 ![ASMR](https://media1.tenor.com/images/449f4571f40ab3bbda8bcb1b99f4f642/tenor.gif?itemid=13952741)
 *ASMR anyone?*
 
-I also found a box of coins just lying around so I recorded the "ching" of the coin landing in the machine. I spliced them together and then boom! Coinslot sound effect. Perfect! It was the finishing touch I was looking for. The ribbon on the box. The cherry on the cake. With bated breach and an aching back, I exported the game for submission...
+I also found a box of coins just lying around so I recorded the "ching" of the coin landing in the machine. I spliced them together and then boom! Coinslot sound effect. Perfect! It was the finishing touch I was looking for. The ribbon on the box. The cherry on the cake. With bated breath and an aching back, I exported the game for submission...
 
-Well, I would have if I didn't need to download 500mb of Godot export templates. So I did that first, then an hour later...
+Well, I would have if I hadn't needed to download 500mb of Godot export templates. So I did that first, then an hour later...
 
 ![Waiting...](https://media1.tenor.com/images/423c375c2e12c1a708ecc1694e472ff1/tenor.gif?itemid=13052487)
 
-I submitted the game and called it a night. Now the game is in the judges hands...
+I submitted the game and called it a night. Now the game is in the judges' hands...
 
 [Play it on itch.io!](https://miltage.itch.io/bodge-dall)  
 I also streamed the rest of the 48 hour process on [my Twitch channel!](https://twitch.tv/miltage)
+
+# Update
+
+The game didn't win any prizes, but it did get a few [honorable mentions!](https://itch.io/jam/sa-game-jam/topic/1037428/winners-announcement#post-2135842)
