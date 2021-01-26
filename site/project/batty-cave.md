@@ -33,10 +33,7 @@ Q: If I reset my achievements, will I lose my scores?
 A: No, your scores will remain intact.
 
 Q: Are scores shared across Android and iOS?  
-A: No, they are separate scoreboards.
-
-Q: Why aren't my scores showing on the Google Play leaderboards?  
-A: If you want your score to appear on the public leaderboards will need to choose to share your gameplay activity in the settings.
+A: Yes! I have implemented a custom leaderboard that will work for both.
 
 # Support
 
