@@ -13,8 +13,6 @@ An ominous howl is heard in the distance...
 
 [Use the generator on Github](https://miltage.github.io/werewolf/)
 
-[I have also made a website for playing Werewolf online without a moderator](https://playap.art)
-
 Man, I cannot believe were are in August already. The time really is flying while we've all been in lockdown, but I'm slowly but surely growing content for my site and getting the chance to work on some cool things so I'm happy. Of course, being inside for large amounts of time comes with its ups and downs, but I hope everyone out there is coping and is in a good place right now.
 
 Last Friday my company were looking for a game to play that the entire team could partake in, regardless of their current location. Thanks to COVID-19 a lot of our team has gone fully remote, some even landing as far away as Switzerland. I offered to moderate a game of Werewolf, and although nearly all of them had never played before, they gladly accepted.
