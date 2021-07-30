@@ -18,13 +18,15 @@ Brief update out of the way, let's move onto the meat of this post. Something ve
 
 # How it began
 
-So late last Saturday night I was sitting at my desk in the dull glow of my monitors browsing YouTube before bed (as I am wont to do) when something piqued my interest. This guy I follow on there was hosting a 3D render challenge/competition. The concept is simple: every entrant gets a box with two holes and a silver metallic ball comes in the one end and goes out the other. It is then up to the entrant to decide what happens to this ball while it is briefly in the box. At the end of the competition all the submissions would then be chained together to create one long 3D Rube Goldberg machine.
+So 2 weekends ago, late on Saturday night, I was sitting at my desk in the dull glow of my monitors browsing YouTube before bed (as I am wont to do) when something caught my eye... This guy I am subscribed to was hosting a 3D render challenge/competition. My interest was piqued. 
+
+The concept is simple: every entrant gets a box with two holes and a silver metallic ball comes in the one end and goes out the other. It is then up to the entrant to decide what happens to this ball while it is briefly in the box. At the end of the competition all the submissions would then be chained together to create one long 3D Rube Goldberg machine.
 
 ![Rube Goldberg](https://media1.tenor.com/images/ccd8ee8d9f08c9fccde6c09b9e8741ba/tenor.gif?itemid=16944811)
 
 The guy in question is Clinton Jones aka [Pwnisher](https://twitter.com/_Pwnisher_). He is a VFX and 3D artist whose career I've been following on YouTube for around 10 years now and have always admired. Recently he left the company he worked for to focus his efforts back on his YouTube channel which had (like my site) been neglected for a little time. On his channel he posts breakdowns, tutorials and, more recently, these 3D rendering competitions that his audience can partake in.
 
-The first one he did last month was called [Alternate Realities](https://www.youtube.com/watch?v=iKBs9l8jS6Q) in which the goal was to take a simple walk cycle and create your own scene around it. Some would say it was quite popular. The competition saw 2400 entries, which were [compiled into one 2.5+ hour video](https://www.youtube.com/watch?v=ZkRjihsMdp8). I had seen the final product but not the call for entries. Had I done so, I might have been inclined to enter. Needless to say, when I saw he was hosting another round I immediately sat up in my seat.
+The last one he did was called [Alternate Realities](https://www.youtube.com/watch?v=iKBs9l8jS6Q) in which the goal was to take a simple walk cycle and create your own scene around it. Some would say it was quite popular. The competition saw 2400 entries, which were [compiled into one 2.5+ hour video](https://www.youtube.com/watch?v=ZkRjihsMdp8). I had seen the final product but not the call for entries. Had I done so, I might have been inclined to enter. Needless to say, when I saw he was hosting another round I immediately sat up in my seat.
 
 <figure class="video_container" style="max-width: 520px">
   <iframe src="https://www.youtube.com/embed/dP6djgooyJQ" frameborder="0" allowfullscreen="true" width="520" height="350"> </iframe>
@@ -114,11 +116,19 @@ By now it was Sunday evening, I had spent the entire day on this thing but I was
 
 I had to get a little more creative though when it came to adding sound to the ball itself. To get the sound of the ball bouncing off the plates I recorded myself tapping various metallic things in my office and then pitched them down slightly to my liking. I think the final sounds I went with were from an old whiskey flask.
 
-[video of me tapping whiskey flask]
+<figure class="video_container" style="max-width: 400px">
+  <video controls="true" allowfullscreen="true" poster="/images/blog/ball-bounce-sounds-preview.jpg">
+    <source src="/images/blog/ball-bounce-sounds.mp4" type="video/mp4">
+  </video>
+</figure>
 
 To get the sound of the ball rolling on the track I placed a small glass bottle in a metal cooking tray and rolled that back and forth. It worked pretty well! I only had to pitch it down and then scale it to fit the animation (which took a few tries).
 
-[video of me rolling glass in tray]
+<figure class="video_container" style="max-width: 400px">
+  <video controls="true" allowfullscreen="true" poster="/images/blog/ball-rolling-sounds-preview.jpg">
+    <source src="/images/blog/ball-rolling-sounds.mp4" type="video/mp4">
+  </video>
+</figure>
 
 The animation had sound, and it felt so much more alive! There was only one thing left to do!
 
