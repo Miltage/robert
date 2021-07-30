@@ -57,10 +57,6 @@
         <lastmod>2020-09-28</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/blog/first-blender-animation/</loc>
-        <lastmod>2021-07-21</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/</loc>
         <lastmod>2021-07-21</lastmod>
     </url>
@@ -83,5 +79,9 @@
     <url>
         <loc>https://robertshenton.co.za/category/all/</loc>
         <lastmod>2021-07-21</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/blog/first-blender-animation/</loc>
+        <lastmod>2021-07-30</lastmod>
     </url>
 </urlset>
