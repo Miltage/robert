@@ -1,6 +1,6 @@
 ---
 title: "My First Blender Animation!"
-date: 2021-07-21
+date: 2021-07-30
 featured_image: /images/blog/dynamic-machines-render.png
 image_caption: Look at those colours!
 tags:
