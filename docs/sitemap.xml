@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+        <loc>https://robertshenton.co.za/blog/</loc>
+        <lastmod>2020-01-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/jetstream/</loc>
+        <lastmod>2020-01-15</lastmod>
+    </url>
+    <url>
         <loc>https://robertshenton.co.za/blog/hello-2020/</loc>
         <lastmod>2020-01-19</lastmod>
     </url>
@@ -18,22 +26,6 @@
     </url>
     <url>
         <loc>https://robertshenton.co.za/blog/ludum-dare-46/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/blog/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/jetstream/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/category/all/</loc>
         <lastmod>2020-04-26</lastmod>
     </url>
     <url>
@@ -61,23 +53,35 @@
         <lastmod>2020-07-29</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/project/playapart/</loc>
-        <lastmod>2020-09-12</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/blog/sa-game-jam-2020/</loc>
         <lastmod>2020-09-28</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/project/bodge-dall/</loc>
-        <lastmod>2021-01-02</lastmod>
+        <loc>https://robertshenton.co.za/blog/first-blender-animation/</loc>
+        <lastmod>2021-07-21</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/</loc>
+        <lastmod>2021-07-21</lastmod>
     </url>
     <url>
         <loc>https://robertshenton.co.za/project/batty-cave/</loc>
-        <lastmod>2021-01-02</lastmod>
+        <lastmod>2021-07-21</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/bodge-dall/</loc>
+        <lastmod>2021-07-21</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/playapart/</loc>
+        <lastmod>2021-07-21</lastmod>
     </url>
     <url>
         <loc>https://robertshenton.co.za/project/rainywindow/</loc>
-        <lastmod>2021-05-17</lastmod>
+        <lastmod>2021-07-21</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/category/all/</loc>
+        <lastmod>2021-07-21</lastmod>
     </url>
 </urlset>
