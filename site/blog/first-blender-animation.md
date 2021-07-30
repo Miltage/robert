@@ -26,8 +26,8 @@ The guy in question is Clinton Jones aka [Pwnisher](https://twitter.com/_Pwnishe
 
 The first one he did last month was called [Alternate Realities](https://www.youtube.com/watch?v=iKBs9l8jS6Q) in which the goal was to take a simple walk cycle and create your own scene around it. Some would say it was quite popular. The competition saw 2400 entries, which were [compiled into one 2.5+ hour video](https://www.youtube.com/watch?v=ZkRjihsMdp8). I had seen the final product but not the call for entries. Had I done so, I might have been inclined to enter. Needless to say, when I saw he was hosting another round I immediately sat up in my seat.
 
-<figure class="video_container">
-  <iframe src="https://www.youtube.com/embed/dP6djgooyJQ" frameborder="0" allowfullscreen="true"> </iframe>
+<figure class="video_container" style="max-width: 520px">
+  <iframe src="https://www.youtube.com/embed/dP6djgooyJQ" frameborder="0" allowfullscreen="true" width="520" height="350"> </iframe>
 </figure>
 
 I've been learning to use Blender in my spare time to make 3D models for my games, but I had never used it to render anything. After a brief moment of consideration (should I be taking more things on right now?), I was in! Sleep would have to wait.
@@ -133,12 +133,11 @@ Oh boy, did I underestimate how long this part would take. I rendered out each f
 
 Here it is! Feast your eyes on this...
 
-<figure class="video_container" style="max-width: 300px; margin: auto">
+<figure class="video_container" style="max-width: 300px">
   <video controls="true" allowfullscreen="true" poster="/images/blog/dynamic-machines-render-preview.png">
     <source src="/images/blog/dynamic-machines-final-render.mp4" type="video/mp4">
   </video>
 </figure>
-<br>
 
 Isn't it beautiful? I don't expect it will place highly in the competition because it is quite simple but it was great to actually take part in one of these.
 
