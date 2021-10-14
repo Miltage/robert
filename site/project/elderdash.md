@@ -19,4 +19,6 @@ This small project was an entry to a [game jam](https://itch.io/jam/physics-game
 
 Originally going to be a game about stacking furniture like a some over-sized game of [Jenga](https://en.wikipedia.org/wiki/Jenga), I switched tracks after crossing the road to buy snacks to munch on while I was working.
 
-Fun fact: I almost called this game *Untitled Granny Game* and *Granny Mall Crossing* (Animal Crossing)
+Fun fact: I almost called this game *Untitled Granny Game* and *Granny Mall Crossing* (Animal Crossing).
+
+**Update**: Elderdash won a few categories! You can see the results on the [jam page](https://itch.io/jam/physics-game-jam-2021).
