@@ -1,5 +1,5 @@
 ---
-title: "Werewolf Generator"
+title: "Werewolf Game Round Generator"
 date: 2020-07-29
 featured_image: /images/blog/werewolf-generator.jpg
 image_caption: 

@@ -4,7 +4,7 @@ meta_title: Home
 meta_description: Personal site of Robert Shenton
 body_class: home
 title: Hey friend!
-subtitle: Below you'll find a collection of my efforts. The writings of a genius or ramblings of a raved lunatic? You decide.
+subtitle: Below you'll find a collection of my efforts. The scribblings of a genius or ramblings of a raving lunatic? You decide.
 ---
 
 <main id="main" class="main inner flex flex-1 flex-col md:flex-row justify-around py-10 lg:py-20 focus:outline-none" tabindex="-1">
@@ -44,7 +44,7 @@ subtitle: Below you'll find a collection of my efforts. The writings of a genius
 
                 {% for post in collections.blog %}
 
-                <li class="mb-1"><a href="{{ post.url }}">{{ post.data.date | htmlDateDisplay + ' — ' + post.data.title }}</a></li>
+                <li class="mb-1"><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 
                 {% endfor %}
 
