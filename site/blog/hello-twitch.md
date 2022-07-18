@@ -12,9 +12,9 @@ tags:
 
 I mean, what else was I going to do?
 
-We're living in a crazy time right now –– COVID-19 has brought humanity to its feet. Most of the world's population is in lockdown right now, including myself, and with not being allowed outside into the great unknown anymore I've found myself with more time on my hands. That's not to say I am any less busy, however.
+We're living in a crazy time right now –– COVID-19 has brought humanity to its knees. Most of the world's population is in lockdown right now, including myself, and with not being allowed outside into the greater unknown anymore I've found myself with more time on my hands. That's not to say I am any less busy, however.
 
-You see, I am one of the luckier people in that my industry was largely unaffected by the onset of the Coronavirus. The biggest adjustment I had to make to my daily routine was the transition to working from home every day and the addition of a morning group call with my colleagues, but everything else remains unchanged. Many others have not been quite that fortunate.
+You see, I am one of the luckier people in that my industry was largely unaffected by the onset of the Coronavirus. The biggest adjustment I had to make to my daily routine was the transition to working from home every day and the addition of a morning group call with my colleagues, but everything else remains mostly unchanged. Many others have not been quite that fortunate.
 
 Another great bit of luck for me was the purchasing of a new desktop computer right before I had to self-isolate. I got it up and running literally _the night before_. Having made my last computer purchase in 2011, this was a long time coming for me. Back then I was still living at home and my sister would often sit and watch me play some of my favourite games. When the news reached her of my new shiny box she was more than keen to come over and explore some of the latest titles with me. That was a week before lockdown.
 
