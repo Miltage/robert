@@ -43,6 +43,16 @@ h2 {
   ul.tags {
     list-style: none;
   }
+
+  ol {
+    list-style: decimal;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+    li {
+      padding-left: 0.6rem;
+    }
+  }
 }
 
 // content breakers

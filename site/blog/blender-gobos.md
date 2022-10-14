@@ -17,14 +17,14 @@ In the theatre world, the actors are often lit on stage by bright, powerful ligh
 Enter ["gobos"](https://en.wikipedia.org/wiki/Gobo_(lighting)), a metal disc with a pattern cut out of it which, when placed in front of the light, casts a certain shadow onto the stage (and everything on the stage too).
 
 ![Wizard of Oz](/images/blog/woz-gobo.jpg)
-*A gobo has been employed here to produce the effect of the yellow brick road*
+*A gobo has been employed here to produce the effect of the yellow brick road (lol @ the dog)*
 
 The same trick can be applied in Blender. Take for example this living dead scene I made for Halloween, with a hand sticking out of a freshly dug grave. I set up a strong blue spotlight to emulate the moonlight shining down upon the scene.
 
 ![Render without the gobo](/images/blog/gobo-example-1.png)
 *Graveyard scene without the gobo*
 
-This is fine on its own, but what if I want that moonlight to be shining through the branches of that tree you can see in the background? I could model the entire tree, branches and all, but that's a lot of time and efforted for something that is frankly wasted as it won't be included in the render and seen at all.
+This is fine on its own, but what if I want the moonlight to be shining through the branches of that tree you can see in the background? I could model the entire tree, branches and all, but that's a lot of wasted time and effort for something that won't even be included in the final render.  
 Instead, I found this tree branch stencil online and set it up as a gobo in front of my light.
 
 <img src="/images/blog/gobo15.jpg" width="400" alt="tree gobo" style="margin-bottom: 40px" />
@@ -38,22 +38,23 @@ You can find all sorts of gobos with just a [simple Google search](https://www.g
 3. Set up its material in the following way, with your desired texture:
 
 ![Gobo material setup](/images/blog/gobo-material.jpg)
+*Material node setup*
 
 You need the transparent shader to allow the light to shine through, adjust the factor until you get something you like.
-You may also need to adjust the scale of your texture to fill the circle properly.
+You may also need to adjust the position and scale of your texture to fill the circle properly. (Check the *Mapping* node)
 
 And that's it, really! Just position it in front of your light and _voila!_
 
 ![Gobo in front of light](/images/blog/gobo-setup.jpg)
 
-I rotated the gobo so that the branches appeared to be coming from the tree in my scene. If you want to rotate yours, you can do so by adjusting the Z rotation value on the material _Mapping_ node.
+I rotated the gobo so that the branches appeared to be coming from the direction of the tree in my scene. If you want to rotate yours, you can do so by adjusting the Z rotation value on the material _Mapping_ node.
 
 ![Render with the gobo](/images/blog/gobo-example-2.png)
 *Graveyard scene with the gobo (very moody!)*
 
-*Can you see the difference it makes?*
+*Can you see the difference it makes?* It's like night and day! (Excuse the pun)
 
-You can adjust the softness of the shadow by changing the radius of the light's bulb, like so:
+You can further adjust the softness of the shadow by changing the radius of the light's bulb, like so:
 
 ![Gobo radius setting](/images/blog/gobo-radius.jpg)
 
