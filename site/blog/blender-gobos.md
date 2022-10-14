@@ -27,9 +27,9 @@ The same trick can be applied in Blender. Take for example this living dead scen
 This is fine on its own, but what if I want that moonlight to be shining through the branches of that tree you can see in the background? I could model the entire tree, branches and all, but that's a lot of time and efforted for something that is frankly wasted as it won't be included in the render and seen at all.
 Instead, I found this tree branch stencil online and set it up as a gobo in front of my light.
 
-![Tree gobo](/images/blog/gobo15.jpg)
+<img src="/images/blog/gobo15.jpg" width="400" alt="tree gobo" style="margin-bottom: 40px" />
 
-You can find all sorts with just a [simple Google search](https://www.google.com/search?q=gobo+texture).
+You can find all sorts of gobos with just a [simple Google search](https://www.google.com/search?q=gobo+texture).
 
 **Here's how I set it up:**
 

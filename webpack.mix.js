@@ -1,6 +1,6 @@
-let mix = require('laravel-mix')
-let tailwindcss = require('tailwindcss')
-require('laravel-mix-purgecss')
+let mix = require('laravel-mix');
+let path = require('path');
+let tailwindcss = require('tailwindcss');
 
 // Root path
 let root = mix.inProduction() ? 'docs' : 'dist';

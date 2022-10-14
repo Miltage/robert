@@ -58,7 +58,7 @@ $transition-length: 0.5s;
         @for $i from 0 through 100 {
 
             &:nth-child(#{$i}) {
-                transition-delay: $transition-length * $i / 8 + .5;
+                transition-delay: $transition-length * $i * 0.125 + .5;
             }
         }
     }
