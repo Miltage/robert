@@ -67,3 +67,5 @@ You can further adjust the softness of the shadow by changing the radius of the 
 There you have it! Please use this new knowledge responsibly.
 
 *PS. To get the light rays you see in these renders, you will need to set up some volumetric fog.*
+
+**UPDATE**: A few days after publishing this post, I found this [great short tutorial on Twitter](https://twitter.com/JanvandenHemel/status/1581348803491205120) for using animated textures with your lights, if you want something a little more dynamic!
