@@ -11,6 +11,10 @@ tags:
 
 # About
 
-This game was made in a week for the Free Lives Physics Jam 2023. 
+This game was made in a week for the Free Lives Physics Jam 2023. The only constraint for the jam is that the game must use physics in some way.
 
-The competition is still under way. I will update this page when the results are in!
+For this jam I played around with ragdoll simulation and settled on this disco dancing rhythm game.
+
+# Results
+
+The game won the award for "Best Ragdoll Physics"! 🏆
