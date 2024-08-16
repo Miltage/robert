@@ -21,22 +21,6 @@
         <lastmod>2020-04-26</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/blog/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/jetstream/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/category/all/</loc>
-        <lastmod>2020-04-26</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/blog/haxeflixeljam-quarantino/</loc>
         <lastmod>2020-05-03</lastmod>
     </url>
@@ -49,40 +33,16 @@
         <lastmod>2020-06-15</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/project/junior-juggle/</loc>
-        <lastmod>2020-06-28</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/blog/werewolf-generator/</loc>
         <lastmod>2020-07-29</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/playapart/</loc>
-        <lastmod>2020-09-12</lastmod>
     </url>
     <url>
         <loc>https://robertshenton.co.za/blog/sa-game-jam-2020/</loc>
         <lastmod>2020-09-28</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/project/bodge-dall/</loc>
-        <lastmod>2021-01-02</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/batty-cave/</loc>
-        <lastmod>2021-01-02</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/rainywindow/</loc>
-        <lastmod>2021-05-17</lastmod>
-    </url>
-    <url>
         <loc>https://robertshenton.co.za/blog/first-blender-animation/</loc>
         <lastmod>2021-07-30</lastmod>
-    </url>
-    <url>
-        <loc>https://robertshenton.co.za/project/elderdash/</loc>
-        <lastmod>2021-09-06</lastmod>
     </url>
     <url>
         <loc>https://robertshenton.co.za/blog/godot-grid-container/</loc>
@@ -97,11 +57,55 @@
         <lastmod>2022-10-14</lastmod>
     </url>
     <url>
-        <loc>https://robertshenton.co.za/project/yeti-upsetti/</loc>
-        <lastmod>2023-08-31</lastmod>
+        <loc>https://robertshenton.co.za/blog/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/batty-cave/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/bodge-dall/</loc>
+        <lastmod>2024-08-13</lastmod>
     </url>
     <url>
         <loc>https://robertshenton.co.za/project/disco-dance-party/</loc>
-        <lastmod>2023-08-31</lastmod>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/elderdash/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/jetstream/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/junior-juggle/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/playapart/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/rainywindow/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/project/yeti-upsetti/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/category/all/</loc>
+        <lastmod>2024-08-13</lastmod>
+    </url>
+    <url>
+        <loc>https://robertshenton.co.za/blog/blender-batch-export/</loc>
+        <lastmod>2024-08-16</lastmod>
     </url>
 </urlset>
