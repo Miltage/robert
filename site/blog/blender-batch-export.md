@@ -32,7 +32,7 @@ import os
 
 # settings
 collection = "collection name"
-dest_folder = "path/to/export/folder"
+dest_folder = "path/to/export/folder/" # needs to be an absolute path with trailing slash
 
 # export everything
 for obj in bpy.data.collections[collection].objects:
