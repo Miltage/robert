@@ -9,12 +9,12 @@ item {
   display: inline-block;
   transition: 0.25s all ease-out;
   background-size: 100%;
-  filter: opacity(0.5) grayscale(0.5);
-  -webkit-filter: opacity(0.5) grayscale(0.5);
+  filter: opacity(0.9) grayscale(0.75);
+  -webkit-filter: opacity(0.9) grayscale(0.75);
   @apply w-24 h-24 bg-gray-400 rounded-lg bg-center bg-no-repeat m-2 cursor-pointer;
 
   &:hover {
-    background-size: 120%;
+    background-size: 110%;
     filter: opacity(1) grayscale(0);
     -webkit-filter: opacity(1) grayscale(0);
   }
